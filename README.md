@@ -1,4 +1,4 @@
-# (M + P) ERN, Docker, Clean Architecture for BlueWave Labs: VerifyWise
+# PERN, Docker, Clean Architecture for BlueWave Labs: VerifyWise
 
 **A Suggestion for an Enterprise Application**
 
@@ -6,24 +6,7 @@
 
 ### Our Stacks, a combination of MERN and PERN
 
-![Enterprise Application Diagram](./images/Mern%20+%20Pern.png)
-
----
-
-#### What does MERN stands for?
-
-MERN: MongoDB + Express.js + React.js + Node.js
-
-##### About MERN
-
-- **MongoDB:** A NoSQL database that stores data in JSON-like documents.
-- **Express.js:** A web application framework for Node.js.
-- **React:** A JavaScript library for building user interfaces.
-- **Node.js:** A JavaScript runtime for server-side programming.
-
-##### Pros of using MongoDB here:
-
-- MongoDB is highly scalable and flexible.
+![Enterprise Application Diagram](./images/PERN.png)
 
 ---
 
@@ -42,42 +25,6 @@ PERN: PostgreSQL + Express.js + React.js + Node.js
 
 - PostgreSQL supports complex queries and transactions, making it suitable for applications requiring robust data integrity.
 - Strong support for SQL, which is widely used and understood.
-
----
-
-#### (M + P)ERN Stack
-
-Combining MongoDB and PostgreSQL in a single stack can offer the best of both worlds:
-
-1. Use MongoDB for handling unstructured data and high scalability.
-2. Use PostgreSQL for structured data and complex queries.
-3. Flexibility to choose the best database for different parts of your application.
-4. Can leverage the strengths of both NoSQL and SQL databases.
-5. Best for projects that can benefit from both NoSQL and SQL databases
-
----
-
-#### An optional and suggested change that could be beneficial for your app
-
-Replacing Node.js with Nest.js for your (M + P)ERN stack depending on your project’s needs and your team’s expertise
-
-##### Node.js pros:
-
-- Lightweight and efficient.
-- Large ecosystem with a vast number of libraries and frameworks.
-- Flexible and unopinionated, giving you more control over how you structure your application.
-
-##### Nest.js pros:
-
-- Strongly opinionated, providing a clear structure and best practices.
-- Built-in support for TypeScript, enhancing code quality and maintainability.
-- Modular architecture, making it easier to manage and scale large applications.
-- Integrated support for features like dependency injection, which simplifies development.
-
-###### Which One to Choose?
-
-- **Node.js:** Choose this if you prefer flexibility and have experience with setting up and managing your own application architecture. It’s great for smaller projects or if you want to have more control over your codebase.
-- **Nest.js:** Opt for this if you want a well-structured, scalable, and maintainable application with built-in best practices. It’s particularly beneficial for larger projects and teams, or if you appreciate the benefits of TypeScript.
 
 ---
 
@@ -115,22 +62,7 @@ Node.js continues to be a cornerstone in backend development, and its relevance 
 [Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours](https://youtu.be/f2EqECiTBL8?si=2iv5jJXCFYXmn9qk)
 [Node.js Tutorial Playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&si=tnw1dCgmC0NYljzE)
 
-#### Nest.js
-
-Nest.js is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. It leverages TypeScript by default (though it also supports JavaScript) and is heavily inspired by Angular’s architecture.
-
-**_Links:_**
-[Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours](https://youtu.be/8_X0nSrzrCw?si=rGMNMjUC-MVWjXMB)
-[Learn NestJS – Complete Course](https://youtu.be/sFnAHC9lLaw?si=iTIfZnywJfUJaI9w)
-[NestJs Course for Beginners - Create a REST API](https://youtu.be/GHTA143_b-s?si=cOJrC_PzJz1PGON8)
-[Nest.JS Tutorials Playlist](https://youtube.com/playlist?list=PL_cUvD4qzbkw-phjGK2qq0nQiG6gw1cKK&si=cCNEqwcoRqukSpZ7)
-
-#### Mongodb
-
-MongoDB is a powerful and versatile NoSQL database that offers flexibility, scalability, and high performance. Its document-oriented model and rich feature set make it an excellent choice for modern applications that require dynamic schema design and efficient data handling.
-
-**_Links:_**
-[Complete MongoDB Tutorial Playlist](https://youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&si=1u1M4JKvKmCdjfdu)
+#### PostgreSQL
 
 **_PostgreSQL_**
 PostgreSQL is a powerful and versatile RDBMS that offers advanced features, high performance, and strong security. Its extensibility and active community support make it an excellent choice for modern applications requiring robust data management.
