@@ -4,7 +4,7 @@
 
 ---
 
-### Our Stacks, a combination of MERN and PERN
+### Our Stacks, PERN
 
 ![Enterprise Application Diagram](./images/PERN.png)
 
