@@ -48,10 +48,10 @@ At least 1 full-stack developer and 2 developers on the same position/role as yo
 Since we're on the beginning of our road, it is better for all of the team members to participate in the process of reviewing the codebase and getting a hands-on experience on how to review the code and find potential bugs, errors, and possible enhancements. Also, it is a must to have at least one of the full-stack developers on the review, since they are the bridge between frontend and backend.
 
 **How should the team handle review feedback (e.g., requesting changes, discussion in comments)?**
-Before making a pull request, reach out to you colleagues and peers and make sure everything is good to go. Better to do the long discussions on your private messaging platforms and only requesting changes, short practical guidances and comments be on issues and pull requests.
+Before making a pull request, reach out to you colleagues and peers and make sure everything is good to go. Better to do the long discussions on Discord and only requesting changes, short practical guidances and comments be on issues and pull requests.
 
 **Should the PR author be allowed to merge their own PR after review?**
-Only leads and project managers will be allowed to merge PRs.
+Everyone should will be able to create issues, and assign them to himself/herself.
 
 ### Issue Management:
 
